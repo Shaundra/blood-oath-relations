@@ -20,5 +20,7 @@ nneka_blue = BloodOath.new(nneka, blue_cult, Date.today - 60)
 nneka_red = BloodOath.new(nneka, red_cult, Date.today)
 lamont_blue = BloodOath.new(lamont, blue_cult, Date.today - 30)
 
+nneka.life_motto = "Community...yeah."
+
 binding.pry
 0 # just in case pry is buggy and exits
